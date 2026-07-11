@@ -1,17 +1,17 @@
 :root {
   --terre: #b56b45;
   --ocre: #c88b3d;
-  --sable: #f5eee3;
-  --vert: #556b52;
   --charbon: #2f2b27;
 }
 
+
+/* Base */
 
 body {
   margin: 0;
   font-family: Georgia, serif;
   color: var(--charbon);
-  background-color: var(--sable);
+  background-color: #faf7f2;
   line-height: 1.6;
 }
 
@@ -21,7 +21,7 @@ body {
 nav {
   padding: 18px 25px;
   text-align: center;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 
@@ -36,10 +36,11 @@ nav a {
 /* Bandeau d'accueil */
 
 .hero {
-  max-width: 900px;
-  margin: auto;
-  padding: 45px 30px 35px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px 30px 55px;
   text-align: center;
+  background-color: #efe3d2;
 }
 
 
@@ -64,7 +65,7 @@ h1 {
 }
 
 
-/* Sections de contenu */
+/* Contenu */
 
 section {
   max-width: 850px;
