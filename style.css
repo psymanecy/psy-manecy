@@ -93,7 +93,8 @@ section hr {
 
 footer {
   text-align: center;
-  padding: 30px;
-  background-color: var(--charbon);
-  color: white;
+  padding: 35px 20px;
+  background-color: #faf7f2;
+  color: #6b6258;
+  font-size: 0.9rem;
 }
