@@ -75,15 +75,17 @@ section {
 }
 
 
-section h2 {
-  font-size: 1.9rem;
-  font-weight: normal;
-  margin: 0 0 18px;
+section p {
+  margin: 0 0 15px;
 }
 
 
-section p {
-  margin: 0 0 15px;
+section hr {
+  border: none;
+  width: 45px;
+  height: 1px;
+  background-color: #b8a38b;
+  margin: 45px auto;
 }
 
 
