@@ -1,0 +1,78 @@
+/* Couleurs principales */
+:root {
+  --terre: #b56b45;
+  --ocre: #c88b3d;
+  --sable: #f5eee3;
+  --vert: #556b52;
+  --charbon: #2f2b27;
+}
+
+/* Base */
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  color: var(--charbon);
+  background-color: var(--sable);
+  line-height: 1.7;
+}
+
+/* Titres */
+h1, h2, h3 {
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* Navigation */
+nav {
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+}
+
+nav a {
+  color: var(--charbon);
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Première section */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero p {
+  max-width: 700px;
+  font-size: 1.2rem;
+}
+
+/* Boutons */
+.button {
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: var(--terre);
+  color: white;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 70px 30px;
+}
