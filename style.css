@@ -21,7 +21,8 @@ body {
 nav {
   padding: 18px 25px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #faf7f2;
+  border-bottom: 1px solid #e7ddd0;
 }
 
 
@@ -41,7 +42,7 @@ nav a {
     background-position: center;
     background-repeat: no-repeat;
 
-    min-height: 80vh;
+    min-height: 70vh;
 
     display: flex;
     justify-content: center;
@@ -50,11 +51,30 @@ nav a {
     position: relative;
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(35, 30, 25, 0.35);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    text-align: center;
+
+    color: white;
+
+    max-width: 800px;
+
+    padding: 40px;
+}
 
 h1 {
-  font-size: 2.8rem;
-  font-weight: normal;
-  margin: 0;
+    font-size: 3.6rem;
+    font-weight: normal;
+    margin-bottom: 8px;
 }
 
 
@@ -66,9 +86,10 @@ h1 {
 
 
 .signature {
-  font-size: 1.3rem;
-  font-style: italic;
-  margin: 0;
+    font-size: 1.3rem;
+    font-style: italic;
+    max-width: 650px;
+    margin: auto;
 }
 
 
