@@ -146,3 +146,48 @@ footer {
     max-width: 700px;
     margin: auto;
 }
+
+/* Page Qui suis-je */
+
+.qui-suis-je {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 30px;
+
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+
+.texte-qui-suis-je {
+  flex: 1;
+}
+
+
+.photo-qui-suis-je {
+  width: 320px;
+}
+
+
+.photo-qui-suis-je img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  border-radius: 3px;
+}
+
+@media (max-width: 800px) {
+
+  .qui-suis-je {
+    flex-direction: column;
+  }
+
+  .photo-qui-suis-je {
+    width: 80%;
+    margin: auto;
+    order: -1;
+  }
+
+}
