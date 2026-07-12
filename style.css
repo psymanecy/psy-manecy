@@ -126,3 +126,23 @@ footer {
   color: #5a5048;
   font-size: 0.95rem;
 }
+
+.page-header {
+    background: #efe3d2;
+    text-align: center;
+    padding: 70px 20px 60px;
+}
+
+.page-header h1 {
+    color: #2f2b27;
+    font-size: 3.2rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.page-header .signature {
+    color: #6d6158;
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: auto;
+}
