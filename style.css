@@ -36,11 +36,18 @@ nav a {
 /* Bandeau d'accueil */
 
 .hero {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 60px 30px 55px;
-  text-align: center;
-  background-color: #efe3d2;
+    background-image: url("cabinet-accueil.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
 }
 
 
